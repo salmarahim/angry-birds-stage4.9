@@ -9,7 +9,7 @@ display (){
     super.display();
 
   }else {
-    World.remove(World,this.body);
+    World.remove(world,this.body);
     push();
     this.visiblity = this.visiblity-5;
     tint (255,this.visiblity);
